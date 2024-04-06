@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.main{
+    height:100%;
+    width: 80%;
+    margin-left:110px;
+}
+/* banner */
+.container{
+    background-color: rgb(17, 179, 233) ;
+    display: flex;
+    justify-content: center;
+    
+}
+.head-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    padding: 8px 5px;   
+}
+/* Header */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+#logo1{
+    width: 70px;
+}
+.links{
+    
+}
+.taggle{
+    display: none;
+}
+.top-link{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top-link:hover{
+    color:  rgb(17, 179, 233);
+}
+.in{
+    border: 1px solid rgb(17, 179, 233);
+    border-radius: 8px;
+    padding: 8px;   
+}
+.out{
+    background-color:  rgb(17, 179, 233);
+    color: white;
+    border-radius: 8px;
+    padding: 9px;
+}
+.out:hover{
+    color: black;
+
+}
+/* Comapny */
+.company{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 1px;
+    margin-top: 9px;
+    gap: 150px;
+    align-items: center;
+} 
+.box2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.view{
+    color: white;
+    background-color:  rgb(17, 179, 233);
+    border-radius: 4px;
+    padding: 4px;
+    width: 80px;
+    
+}
+.img1{
+    width: 230px;
+}
+/* fectures1 */
+.features{
+    
+    padding: 20px 0;  
+}
+.par-p1{
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.box4{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.cps{
+    width: 130px;
+    height: 100px;
+}
+/* card-features */
+.features-card{
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(eye.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-img{
+    width: 70px;
+    height: 70px;
+}
+.d{
+    margin-top: 30px;
+}
+.but1{
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 6px;
+    color: black;
+    margin-top: 10px;   
+}
+.but1:hover{
+    color: rgb(17, 179, 233) ;
+}
+/* features-card1 */
+.features-card1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    margin-top: 50px;
+    padding: 20px 5px;
+} 
+.big1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.fc1-img{
+    width: 350px;
+    height: 300px;
+    border-radius: 6px;
+}
+.fc12{
+    width: 500px;
+}
+/* card2*/
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.fc21{
+    width: 500px;
+}
+/* card3 */
+.card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.fc32{
+    width: 500px;
+}
+/* exm */
+.example{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.back{
+    width: 23%;
+    background: black;
+    position: relative;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2) ,rgb(0, 0, 0, 0.8)), url(lady.jpg);
+    background-size: cover ;
+    height: 300px;
+    transition: 0.5, ease-out;
+}
+.back:hover{
+    box-shadow: 0 0 10px #888;
+}
+.p2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+.exm-c1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+/* footer1 */
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(122, 8, 122);
+    height: 150px;
+}
+.f1but{
+    color: wheat;
+    padding: 7px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.f1but:hover{
+    color: rgb(17, 179, 233) ;
+}
+/* footer */
+.foot{
+    display: flex;
+    background-color: gray;
+    flex-wrap: wrap;
+    height: 130px;
+    margin-top: 2px;
+    column-gap: 20px;
+    padding: 30px;
+}
+.footbut{
+    text-decoration: none;
+    color: white;
+}
+.footbut:hover{
+    color:rgb(17, 179, 233) ;
+}
+/* subfoot */
+.subfooter{
+    background-color: rgb(44, 40, 40);
+    color: wheat;
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* media quaries */
+
+@media screen and (max-width: 900px)  {
+    .mainCont {
+      overflow: hidden;
+    }
+    .links{
+        display: none;
+    
+    }
+    .taggle{
+        display: block;
+    }
+    .box4{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15px;
+        flex-wrap: wrap;
+       
+    }
+    .card-body{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+
+        
+    }
+    .exm-c1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+    .back{
+        
+        width: calc(50% - 10px);
+        height: 180px;
+    
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    .main{
+        height:100%;
+        width: 100%;
+        margin-left :10px;
+        
+    }
+    .company{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+    .box2{
+        margin-top: -70px;
+    }
+    .card-body{
+        display: flex;
+    }
+    .big1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .css{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex-wrap: nowrap;
+        height: 100%;
+        gap: 10px;
+        align-items: center;
+    }
+    .subfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
